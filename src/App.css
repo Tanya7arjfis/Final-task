@@ -1,0 +1,103 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #262624;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 26px;
+}
+nav {
+  padding: 15px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+form {
+  margin-top: 10px;
+}
+.navlink {
+  padding: 0 20px;
+
+}
+a.navlink:active,
+a.navlink:target {
+  color: aliceblue;
+  text-decoration: underline;   
+  background: cadetblue;
+  border-radius: 15px;
+}
+
+.home-page {
+  background: url(./image/pexels-pixabay-247931.jpg) no-repeat center/100% ;
+  height: 100vh;
+  opacity: 0.6;
+  margin: 0 -24px;
+}
+
+.home-title {
+  color: #6a0e0e;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 70px;
+  margin: 0;
+  padding: 20px 70px;
+}
+
+
+.waiter-avatar {
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+}
+
+
+.waiter-name {
+  display: inline-block;
+  width: 200px;
+}
+
+.add-waiter {
+  margin-top: 15px;
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+
+img.waiter-avatar {
+}
+
+.tables {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+.table-info {
+  background: burlywood;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  padding: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.table-info:hover {
+  background: rgb(237 227 214);
+  box-shadow: 1px 1px 1px grey;
+}
+
+.table-number {
+  
+}
